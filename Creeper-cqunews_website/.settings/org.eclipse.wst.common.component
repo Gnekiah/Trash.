@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Creeper-cqunews_website">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/creepersource"/>
+        <property name="context-root" value="Creeper-cqunews_website"/>
+        <property name="java-output-path" value="/Creeper-cqunews_website/build/classes"/>
+    </wb-module>
+</project-modules>
