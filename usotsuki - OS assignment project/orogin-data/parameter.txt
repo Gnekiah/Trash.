@@ -1,0 +1,10 @@
+#parameter file
+frame_number = 20;   #物理内存可以容纳的页框数目（不包括页表）
+TLB_entry = 10;     #TLB中可以存放的数目
+TLB_time = 5;       #访问一次TLB的时间，单位ns
+memory_time = 100;    #访问一次内存的时间，单位ns
+seek_time = 100;    #访问磁盘时，从当前磁道到临近磁道的时间，单位ns
+rotational_time = 50;  #访问磁盘时，旋转一个扇区的时间，单位ns
+transfer_time = 30000;  #访问磁盘时，传输一个页的数据的时间，单位ns
+replacement_algorithm = 0; #模拟两种置换算法：FIFO（用0表示），LRU（用1表示）
+replacement_strategy = 0;  #模拟两种置换策略：全局（用0表示），局部（用1表示）
